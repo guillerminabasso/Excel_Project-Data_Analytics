@@ -1,0 +1,6 @@
+~$*
+*.tmp
+.DS_Store
+.vscode/
+__pycache__/
+datasets_raw/
