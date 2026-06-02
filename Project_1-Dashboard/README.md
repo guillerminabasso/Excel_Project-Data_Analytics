@@ -29,9 +29,9 @@ The dataset was sourced from a public Excel tutorial focused on data analytics. 
 - **📍 Locations**
 - **🛠️ Skills**
 
-- ## Dashboard build
+## Dashboard build
 
-- ### 📉 Charts
+### 📉 Charts
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
