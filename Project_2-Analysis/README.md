@@ -103,5 +103,17 @@ To better visualize the relationship between salary and the average number of re
 - Overall, the chart suggests a positive relationship between the average number of skills required per job posting and median salary. Business Analyst and Data Analyst roles require an average of 3–4 skills per job posting and have median salaries between $85,000 and $90,000 per year. For most of the remaining roles (with the exception of Cloud Engineer), roles requiring more skills also tend to offer higher median salaries.
 - Data Engineer roles require an average of 7 skills per job posting and have a median salary of approximately $130,000. In comparison, Data Scientist and Senior Data Scientist roles require around 5 skills on average but offer higher median salaries, ranging from $145,000 to $155,000. Senior Data Engineer roles combine the highest skill requirements (around 8 skills) with a median salary of approximately $150,000.
 
+### 3. What are the top 10 skills across data roles?
 
+For this analysis, I created a pivot table based on the job_skills column from the data_jobs_skills table. For the values, I added a new measure called Skill Likelihood, which represents the percentage of job postings requiring each skill across the entire dataset.
+
+The results were filtered to show the top 10 most frequently appearing skills and visualized using a bar chart. Slicers were also added to allow filtering by country and data role of interest.
+
+<img width="776" height="257" alt="image" src="https://github.com/user-attachments/assets/4f293c41-e945-4640-8302-86d5242bae1a" />
+
+
+#### Insights
+
+- Filtering the data for **Data Analyst** roles, we can see that the most demanded skills are **SQL** (50%), **Excel** (40%), **Python** (29%), and **Tableau** (28%). This highlights the importance of mastering SQL, spreadsheet tools, a programming language (with Python being the most widely adopted for analytics), and a data visualization tool such as Tableau. Other relevant skills, including **SAS**, **Power BI**, **R**, **Word**, **PowerPoint**, and **Oracle**, appear in approximately 15% to 20% of job postings, showing the relevance of statistical analysis, reporting tools, and database technologies for Data Analyst positions.
+- Looking at **Data Engineer** roles, the top skills include **SQL**, **Python**, **AWS**, **Spark**, **Azure**, **Java**, **Snowflake**, **Hadoop**, **Kafka**, and **NoSQL** technologies. Compared with Data Analyst roles, these skills demonstrate the stronger emphasis on software engineering, cloud infrastructure, big data processing, and database technologies required for building and maintaining data platforms.
 
