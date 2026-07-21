@@ -9,7 +9,7 @@ This project was created to learn Excel advanced tools and to analyze the demand
 1. Which data roles are the most in demand?
 2. How many skills are required for each role, and what are their associated salaries?
 3. What are the top 10 skills across data roles?
-4. What are the median salaries in different countries?
+4. What’s the salary for data jobs in different regions?
 5. Which skills are the most in demand, and what salaries are associated with them?
 
 ### Excel Skills Used
@@ -105,7 +105,7 @@ To better visualize the relationship between salary and the average number of re
 
 ### 3. What are the top 10 skills across data roles?
 
-For this analysis, I created a pivot table based on the job_skills column from the data_jobs_skills table. For the values, I added a new measure called Skill Likelihood, which represents the percentage of job postings requiring each skill across the entire dataset.
+For this analysis, I created a pivot table based on the job_skills column from the data_jobs_skills table. For the values, I added a new measure called **Skill Likelihood**, which represents the percentage of job postings requiring each skill across the entire dataset.
 
 The results were filtered to show the top 10 most frequently appearing skills and visualized using a bar chart. Slicers were also added to allow filtering by country and data role of interest.
 
@@ -116,4 +116,27 @@ The results were filtered to show the top 10 most frequently appearing skills an
 
 - Filtering the data for **Data Analyst** roles, we can see that the most demanded skills are **SQL** (50%), **Excel** (40%), **Python** (29%), and **Tableau** (28%). This highlights the importance of mastering SQL, spreadsheet tools, a programming language (with Python being the most widely adopted for analytics), and a data visualization tool such as Tableau. Other relevant skills, including **SAS**, **Power BI**, **R**, **Word**, **PowerPoint**, and **Oracle**, appear in approximately 15% to 20% of job postings, showing the relevance of statistical analysis, reporting tools, and database technologies for Data Analyst positions.
 - Looking at **Data Engineer** roles, the top skills include **SQL**, **Python**, **AWS**, **Spark**, **Azure**, **Java**, **Snowflake**, **Hadoop**, **Kafka**, and **NoSQL** technologies. Compared with Data Analyst roles, these skills demonstrate the stronger emphasis on software engineering, cloud infrastructure, big data processing, and database technologies required for building and maintaining data platforms.
+
+### 4. What’s the salary for data jobs in different regions?
+
+For this analysis I built two new DAX measures **US Median Salaries** and **Non-US Median Salary** in order to compare the median salaries between a selected country, the US (the majority of the data is from the US) and the rest of the countries. 
+
+<img width="556" height="239" alt="image" src="https://github.com/user-attachments/assets/84013cd6-e9ec-495b-8841-e0a72895247a" />
+
+#### Insights
+
+- Senior Data Engineer and Data Scientist roles command the highest median salaries both in the United States and internationally, highlighting the strong global demand for experienced data professionals.
+- Data Analyst, Machine Learning Engineer, Data Scientist, and Data Engineer roles have lower median salaries in France than in both the United States and the non-US median. Business Analyst is the exception, with a median salary comparable to or higher than the non-US median. These differences suggest that salaries for data roles vary considerably across countries, reflecting differences in local labor markets, demand, and compensation levels.
+
+### 5. Which skills are the most in demand, and what salaries are associated with them?
+
+For this analysis I built these new DAX measures: **Median Salary-Skills** and **Skill Likelihood**. 
+
+
+
+
+
+
+
+
 
