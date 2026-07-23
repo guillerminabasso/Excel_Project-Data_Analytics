@@ -128,9 +128,36 @@ For this analysis I built two new DAX measures **US Median Salaries** and **Non-
 - Senior Data Engineer and Data Scientist roles command the highest median salaries both in the United States and internationally, highlighting the strong global demand for experienced data professionals.
 - Data Analyst, Machine Learning Engineer, Data Scientist, and Data Engineer roles have lower median salaries in France than in both the United States and the non-US median. Business Analyst is the exception, with a median salary comparable to or higher than the non-US median. These differences suggest that salaries for data roles vary considerably across countries, reflecting differences in local labor markets, demand, and compensation levels.
 
-### 5. Which skills are the most in demand, and what salaries are associated with them?
+### 5. What are the Highest-Paying Skills and Their Likelihood in Job Postings?
 
-For this analysis I built these new DAX measures: **Median Salary-Skills** and **Skill Likelihood**. 
+For this analysis, I created two new DAX measures: **Median Salary – Skills** and **Skill Likelihood**. To calculate the median salary associated with each skill, I used the CROSSFILTER DAX function to temporarily enable bidirectional filtering between the data_jobs_salary and data_jobs_skills tables through the job_id field.
+
+```DAX
+Median Salary - Skills =
+CALCULATE(
+    [Median Salary],
+    CROSSFILTER(
+        data_jobs_salary[job_id],
+        data_jobs_skills[job_id],
+        Both
+    )
+)
+```
+I then created a combo chart displaying the 10 highest-paying skills alongside their likelihood of appearing in job postings. This visualization highlights the relationship between the earning potential of each skill and how frequently it is requested by employers.
+
+<img width="914" height="286" alt="image" src="https://github.com/user-attachments/assets/5053936c-20bf-4ce5-b4ac-0177239be37e" />
+
+#### Insights
+
+- The most in-demand skills for Data Analysts are associated with median salaries ranging from **$80K to $100K**, with Airflow and Tableau being the only exceptions, offering slightly lower median salaries.
+- **SQL** is by far the most requested skill, appearing in 55% of job postings, followed by **Python** and **Tableau**, each appearing in approximately 40% of postings. The remaining skills (Excel, Power BI, AWS, Snowflake, Azure, Spark, and Airflow) appear in 10%–20% of job postings.
+- These results highlight the importance of mastering **SQL** and **Python**, as they combine high demand with strong salary potential. They also show that expanding beyond traditional Data Analyst tools (such as Excel, Power BI, and Tableau) by learning cloud platforms (AWS and Azure), cloud data warehousing (Snowflake), distributed data processing (Apache Spark), and workflow orchestration (Apache Airflow) can help develop a broader and more competitive data skill set.
+
+
+
+
+
+
 
 
 
