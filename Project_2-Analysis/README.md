@@ -22,7 +22,7 @@ This project was created to learn Excel advanced tools and to analyze the demand
 
 ### Dataset
 
-The dataset used in this project contains real-world data science job postings from 2023. It was provided by the creator of the YouTube course and is available via this link: https://huggingface.co/datasets/lukebarousse/data_jobs
+The dataset used in this project contains real-world data science job postings from 2023. It was provided by the creator of the YouTube course and is available in the Resources folder of this repository.
 
 ### ETL 
 
