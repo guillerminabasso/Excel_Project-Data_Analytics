@@ -33,7 +33,11 @@ I created two main queries:
 - one containing all job posting information, including salaries;
 - another containing the exploded list of skills associated with each job_id.
 
-IMAGEN
+<img width="762" height="382" alt="image" src="https://github.com/user-attachments/assets/d0beff14-45f6-4e28-8a9c-8b3f642a6158" />
+
+<img width="595" height="381" alt="image" src="https://github.com/user-attachments/assets/6791c5b6-e31c-4314-bf68-07337256dc92" />
+
+
 
 #### 🔄 Transform
 
@@ -43,19 +47,22 @@ Next, I transformed each query by:
 - cleaning text fields
 - trimming extra whitespace
 
-IMAGEN
+<img width="187" height="255" alt="image" src="https://github.com/user-attachments/assets/4308d113-bec0-4f70-a227-b3c797595409" />
+
+<img width="188" height="291" alt="image" src="https://github.com/user-attachments/assets/5ab9fbd9-b8fd-43e4-89ee-d89e97cc275e" />
+
+
 
 #### 🔗 Load
 
 Finally, I loaded both transformed queries into the Data Model, preparing the dataset for analysis in Power Pivot and Pivot Tables.
 
-IMAGEN
-
 ### Data Modeling
 
 I built the model of the data I needed for the analysis through Power Pivot by creating a relationship between the two queries using the job_id column. During the analysis I also created the DAX measures used to build the Pivot Tables and charts.
 
-IMAGEN
+<img width="362" height="385" alt="image" src="https://github.com/user-attachments/assets/8dbc9c98-57eb-4a82-a223-24ad5e3b777d" />
+
 
 ## The Analysis
 
