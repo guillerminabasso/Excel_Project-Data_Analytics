@@ -119,13 +119,13 @@ For this analysis, I created a pivot table based on the job_skills column from t
 
 The results were filtered to show the top 10 most frequently appearing skills and visualized using a bar chart. Slicers were also added to allow filtering by country and data role of interest.
 
-<img width="776" height="257" alt="image" src="https://github.com/user-attachments/assets/4f293c41-e945-4640-8302-86d5242bae1a" />
+<img width="767" height="242" alt="image" src="https://github.com/user-attachments/assets/ea984c63-827a-4de5-8d59-1cea118f2286" />
 
 
 #### Insights
 
-- Filtering the data for **Data Analyst** roles, we can see that the most demanded skills are **SQL** (50%), **Excel** (40%), **Python** (29%), and **Tableau** (28%). This highlights the importance of mastering SQL, spreadsheet tools, a programming language (with Python being the most widely adopted for analytics), and a data visualization tool such as Tableau. Other relevant skills, including **SAS**, **Power BI**, **R**, **Word**, **PowerPoint**, and **Oracle**, appear in approximately 15% to 20% of job postings, showing the relevance of statistical analysis, reporting tools, and database technologies for Data Analyst positions.
-- Looking at **Data Engineer** roles, the top skills include **SQL**, **Python**, **AWS**, **Spark**, **Azure**, **Java**, **Snowflake**, **Hadoop**, **Kafka**, and **NoSQL** technologies. Compared with Data Analyst roles, these skills demonstrate the stronger emphasis on software engineering, cloud infrastructure, big data processing, and database technologies required for building and maintaining data platforms.
+- Filtering the data for **Data Analyst** roles in France, we can see that the most in-demand skills are **SQL** (56%), **Python** (37%), **Tableau** (37%), **Excel** (19%), and **Power BI** (19%). These results highlight the importance of mastering SQL, Python—the most widely used programming language for data analytics—data visualization tools, and spreadsheet software. Other relevant technologies, including **Azure**, **Airflow**, **Snowflake**, **Spark**, and **AWS**, appear in approximately 9% to 17% of job postings, demonstrating that cloud platforms, data engineering tools, and modern data infrastructure are also valuable skills for Data Analyst positions.
+- Looking at **Data Engineer** roles, the most in-demand skills include **SQL**, **Python**, **AWS**, **Spark**, **Azure**, **Scala**, **GCP**, **NoSQL**, **Hadoop**, and **Docker**. Compared with Data Analyst roles, this skill set reflects a much stronger emphasis on cloud computing, big data processing, distributed systems, database management, and software engineering, highlighting the technical expertise required to build and maintain scalable data platforms.
 
 ### 4. What’s the salary for data jobs in different regions?
 
