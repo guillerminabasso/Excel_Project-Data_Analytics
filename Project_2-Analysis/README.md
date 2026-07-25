@@ -135,8 +135,8 @@ For this analysis I built two new DAX measures **US Median Salaries** and **Non-
 
 #### Insights
 
-- Senior Data Engineer and Data Scientist roles command the highest median salaries both in the United States and internationally, highlighting the strong global demand for experienced data professionals.
-- Data Analyst, Machine Learning Engineer, Data Scientist, and Data Engineer roles have lower median salaries in France than in both the United States and the non-US median. Business Analyst is the exception, with a median salary comparable to or higher than the non-US median. These differences suggest that salaries for data roles vary considerably across countries, reflecting differences in local labor markets, demand, and compensation levels.
+- **Senior Data Engineer** and **Data Scientist** roles command the highest median salaries both in the United States and internationally, highlighting the strong global demand for experienced data professionals.
+- **Data Analyst**, **Machine Learning Engineer**, **Data Scientist**, and **Data Engineer** roles have lower median salaries in France than in both the United States and the non-US median. **Business Analyst** is the exception, with a median salary comparable to or higher than the non-US median. These differences suggest that salaries for data roles vary considerably across countries, reflecting differences in local labor markets, demand, and compensation levels.
 
 ### 5. What are the Highest-Paying Skills and Their Likelihood in Job Postings?
 
@@ -164,6 +164,9 @@ I then created a combo chart displaying the 10 highest-paying skills alongside t
 - These results highlight the importance of mastering **SQL** and **Python**, as they combine high demand with strong salary potential. They also show that expanding beyond traditional Data Analyst tools (such as Excel, Power BI, and Tableau) by learning cloud platforms (AWS and Azure), cloud data warehousing (Snowflake), distributed data processing (Apache Spark), and workflow orchestration (Apache Airflow) can help develop a broader and more competitive data skill set.
 
 ## Conclusion
+
+- Based on the insights from this project, I would not limit my job search to **Data Analyst** positions. I would also target **Business Analyst** roles, which offer higher median salaries while requiring a similar number of skills.
+- I would continue developing my technical skills to become qualified for **Senior Data Analyst** positions, which provide significantly higher salaries. Additionally, if I decided to pursue a **Data Engineer** career path, I would consider opportunities outside France, as the French market appears to offer comparatively lower median salaries for this role relative to its higher technical skill requirements.
 
 
 
