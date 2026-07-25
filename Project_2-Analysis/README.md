@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was created to learn Excel advanced tools and to analyze the demand, salaries, and required skills for different data roles across countries.
+This project was developed to strengthen my knowledge of advanced Excel features while exploring the demand, salary trends, and required skills for different data roles across multiple countries. Interactive slicers were incorporated into each analysis to allow users to dynamically explore the data by country and job role.
 
 ### Questions to answer:
 
@@ -167,6 +167,7 @@ I then created a combo chart displaying the 10 highest-paying skills alongside t
 
 - Based on the insights from this project, I would not limit my job search to **Data Analyst** positions. I would also target **Business Analyst** roles, which offer higher median salaries while requiring a similar number of skills.
 - I would continue developing my technical skills to become qualified for **Senior Data Analyst** positions, which provide significantly higher salaries. Additionally, if I decided to pursue a **Data Engineer** career path, I would consider opportunities outside France, as the French market appears to offer comparatively lower median salaries for this role relative to its higher technical skill requirements.
+- Regarding the Excel skills developed through this project, I discovered the potential of **Power Query** and **Power Pivot**. Both tools, especially Power Query, proved to be powerful solutions for inspecting, cleaning, transforming, and modeling data, and they significantly improved my understanding of more advanced data analysis workflows in Excel.
 
 
 
