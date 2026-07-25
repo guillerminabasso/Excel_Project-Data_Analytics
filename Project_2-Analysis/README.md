@@ -70,9 +70,9 @@ I built the model of the data I needed for the analysis through Power Pivot by c
 
 Using the main query, I created a Pivot Table with job_title_short in the Rows area and created two measures to show the % of each of the job_title_short values in the dataset. 
 
-<img width="797" height="266" alt="image" src="https://github.com/user-attachments/assets/748af426-3091-40c1-9c0f-6831b1625ad6" />
+<img width="803" height="245" alt="image" src="https://github.com/user-attachments/assets/11c6917f-c774-4b7a-9dd5-3de85248f648" />
 
-I added a slicer to filter the data for the country of interest.
+I added a slicer to filter the data for the country of interest (France).
 
 **Key DAX Measures**
 
@@ -91,8 +91,9 @@ DIVIDE([Job Count], [All Job Postings])
 ```
 #### Insights
 
-- Across the entire dataset, Data Analyst is the most in-demand role, accounting for 30% of all job postings. It is followed by Data Scientist (26%) and Data Engineer (21%), highlighting the strong demand for analytics and data-related professionals.
-- When filtering the data for France and Spain, Data Engineer represents a larger share of job postings (25% in France and 23% in Spain), while Data Analyst and Data Scientist rank second and third. This suggests that these markets place relatively greater emphasis on data engineering roles compared with the overall dataset, possibly reflecting the growing adoption of cloud-based data platforms and modern data infrastructure.
+- **Data Engineer**, **Data Scientist**, and **Data Analyst** are the three most in-demand data roles in France, accounting for 72% of all job postings.
+- **Data Engineers** and **Data Scientists** show slightly higher demand than **Data Analysts**, representing 25%, 24%, and 22% of job postings, respectively.
+- Overall, the French data job market offers strong opportunities across all three roles. While **Data Analyst** positions remain highly sought after, the slightly higher demand for **Data Engineers** and **Data Scientists** suggests that professionals with the required technical skills may find a broader range of opportunities in those career paths.
 
 
 ### 2. How many skills are required for each role, and what are their associated salaries?
@@ -103,12 +104,14 @@ Using these measures, I built a Pivot Table with `job_title_short` in the **Rows
 
 To better visualize the relationship between salary and the average number of required skills, I created a scatter chart and added a trendline to highlight the overall correlation between the two variables.
 
-<img width="838" height="261" alt="image" src="https://github.com/user-attachments/assets/24520f68-b9b8-4ec5-a184-b9a06a03361c" />
+<img width="842" height="274" alt="image" src="https://github.com/user-attachments/assets/08010512-cf1d-4ad2-ad33-89e45a675d73" />
+
 
 #### Insights
 
-- Overall, the chart suggests a positive relationship between the average number of skills required per job posting and median salary. Business Analyst and Data Analyst roles require an average of 3–4 skills per job posting and have median salaries between $85,000 and $90,000 per year. For most of the remaining roles (with the exception of Cloud Engineer), roles requiring more skills also tend to offer higher median salaries.
-- Data Engineer roles require an average of 7 skills per job posting and have a median salary of approximately $130,000. In comparison, Data Scientist and Senior Data Scientist roles require around 5 skills on average but offer higher median salaries, ranging from $145,000 to $155,000. Senior Data Engineer roles combine the highest skill requirements (around 8 skills) with a median salary of approximately $150,000.
+- Overall, the chart suggests a positive relationship between the average number of skills required per job posting and median salary. **Data Engineers** are a notable exception, requiring an average of 8 skills while offering a median salary of $100K, compared with Senior Data Engineers, who require a similar number of skills but command a median salary of $150K.
+- **Data Analyst** is the lowest-paying role in France, with a median salary of $65K and an average of 4 skills required per job posting. In comparison, **Data Scientists** also require around 4 skills but earn a considerably higher median salary of $85K.
+- **Senior Data Scientist**, **Software Engineer**, and **Senior Data Analyst** roles appear to offer a strong balance between skill requirements and compensation, requiring an average of 4 to 6 skills while providing median salaries ranging from $110K to $160K.
 
 ### 3. What are the top 10 skills across data roles?
 
@@ -159,6 +162,8 @@ I then created a combo chart displaying the 10 highest-paying skills alongside t
 - The most in-demand skills for Data Analysts are associated with median salaries ranging from **$80K to $100K**, with Airflow and Tableau being the only exceptions, offering slightly lower median salaries.
 - **SQL** is by far the most requested skill, appearing in 55% of job postings, followed by **Python** and **Tableau**, each appearing in approximately 40% of postings. The remaining skills (Excel, Power BI, AWS, Snowflake, Azure, Spark, and Airflow) appear in 10%–20% of job postings.
 - These results highlight the importance of mastering **SQL** and **Python**, as they combine high demand with strong salary potential. They also show that expanding beyond traditional Data Analyst tools (such as Excel, Power BI, and Tableau) by learning cloud platforms (AWS and Azure), cloud data warehousing (Snowflake), distributed data processing (Apache Spark), and workflow orchestration (Apache Airflow) can help develop a broader and more competitive data skill set.
+
+## Conclusion
 
 
 
